@@ -9,10 +9,10 @@ commands:
     description: Main Bottled EXP command
     usage: /exp bottle
     aliases: [e]
-    permission: bottled.exp
+    permission: bottle.exp
   
 permissions:
-  bottled.exp:
+  bottle.exp:
     default: op
     description: Bottle your EXP
 ...
