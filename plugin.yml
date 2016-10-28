@@ -1,1 +1,18 @@
+---
+name: BottledEXP
+main: BottledEXp/Main
+author: skullex
+api: [2.0.0]
 
+commands:
+  exp:
+    description: Main Bottled EXP command
+    usage: /exp bottle
+    aliases: [e]
+    permission: bottled.exp
+  
+permissions:
+  bottled.exp:
+    default: op
+    description: Bottle your EXP
+...
